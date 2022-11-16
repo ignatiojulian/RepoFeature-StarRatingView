@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var starRatingView: StarRatingView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupAppearance()
+    }
+    
+    func setupAppearance() {
+        starRatingView.isUserInteractionEnabled = true
     }
 
 

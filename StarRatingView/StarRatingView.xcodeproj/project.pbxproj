@@ -13,6 +13,8 @@
 		F1201CAE29249A4C0035307C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1201CAC29249A4C0035307C /* Main.storyboard */; };
 		F1201CB029249A4D0035307C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1201CAF29249A4D0035307C /* Assets.xcassets */; };
 		F1201CB329249A4D0035307C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1201CB129249A4D0035307C /* LaunchScreen.storyboard */; };
+		F1201CBC29249A980035307C /* StarRatingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1201CBB29249A980035307C /* StarRatingStackView.swift */; };
+		F1201CBE29249ABE0035307C /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1201CBD29249ABE0035307C /* StarRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F1201CAF29249A4D0035307C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1201CB229249A4D0035307C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1201CB429249A4D0035307C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1201CBB29249A980035307C /* StarRatingStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingStackView.swift; sourceTree = "<group>"; };
+		F1201CBD29249ABE0035307C /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		F1201CA529249A4C0035307C /* StarRatingView */ = {
 			isa = PBXGroup;
 			children = (
+				F1201CBA29249A810035307C /* StarRatingView */,
 				F1201CA629249A4C0035307C /* AppDelegate.swift */,
 				F1201CA829249A4C0035307C /* SceneDelegate.swift */,
 				F1201CAA29249A4C0035307C /* ViewController.swift */,
@@ -63,6 +68,15 @@
 				F1201CAF29249A4D0035307C /* Assets.xcassets */,
 				F1201CB129249A4D0035307C /* LaunchScreen.storyboard */,
 				F1201CB429249A4D0035307C /* Info.plist */,
+			);
+			path = StarRatingView;
+			sourceTree = "<group>";
+		};
+		F1201CBA29249A810035307C /* StarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				F1201CBB29249A980035307C /* StarRatingStackView.swift */,
+				F1201CBD29249ABE0035307C /* StarRatingView.swift */,
 			);
 			path = StarRatingView;
 			sourceTree = "<group>";
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1201CBC29249A980035307C /* StarRatingStackView.swift in Sources */,
 				F1201CAB29249A4C0035307C /* ViewController.swift in Sources */,
 				F1201CA729249A4C0035307C /* AppDelegate.swift in Sources */,
+				F1201CBE29249ABE0035307C /* StarRatingView.swift in Sources */,
 				F1201CA929249A4C0035307C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
